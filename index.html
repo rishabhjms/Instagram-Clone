@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="utilities/style/login.css">
+    <script src="https://kit.fontawesome.com/a62dfa2412.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="utilities/images/favicon.ico">
+    <title>Instagram</title>
+</head>
+
+<body class="bg-gray-50">
+    <div id="container" class="grid grid-cols-2 mt-6">
+        <section class="box-left flex h-screen justify-end items-center mx-4">
+            <img src="utilities/images/screenshot1.png" alt="" id="displayImgMain"
+                class="h-5/6 z-10 bg-black p-2 rounded-3xl">
+        </section>
+        <section class="box-right flex flex-col justify-center gap-y-2">
+            <div class="right-box-1 grid w-3/6 mx-4 rounded-md h-[70%] bg-white temp1">
+                <section class="section-heading flex items-end justify-center font-bold text-3xl">
+                    <a href="index.html"><span class="pps-fs">Instagram</span></a>
+                </section>
+                <section class="section-login flex flex-col justify-center items-center space-y-3">
+                    <input type="text" id="username_field" placeholder="Phone number, username or email"
+                        class="bg-gray-50">
+                    <input type="password" id="password_field" placeholder="Password" class="bg-gray-50">
+                    <button class="bg-blue-500 w-4/5 text-white">Log in</button>
+                </section>
+                <section class="grid grid-rows-2">
+                    <section class="grid grid-flow-col items-center px-8">
+                        <hr><span class="justify-self-center text-gray-500">OR</span>
+                        <hr>
+                    </section>
+                    <section class="grid justify-center  text-blue-800">
+                        <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%2522eaejipyjwtqb482hmaeoq6wpfxzcui3au26j1op1q8r1rhn7tz%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Den_US%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D56712437-8730-4674-aa23-d589ffe79e98%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%2522eaejipyjwtqb482hmaeoq6wpfxzcui3au26j1op1q8r1rhn7tz%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&locale=en_GB&pl_dbl=0"
+                            class="text-md"><i class="fa-brands fa-square-facebook mx-2"></i>Log in with
+                            Facebook</a>
+                        <a href="password_reset.html" class="text-sm justify-self-center">Forgot Password?</a>
+                    </section>
+                </section>
+            </div>
+            <div class="right-box-2 text-md flex items-center justify-center w-3/6 mx-4 h-[12%] bg-white temp1">
+                <span>Dont' have an account?&nbsp;<a href="https://www.instagram.com/accounts/emailsignup/"
+                        class="font-semibold text-blue-500">Sign Up</a> </span>
+            </div>
+            <div class="right-box-3 w-3/6 mx-4 text-center flex flex-col justify-evenly">
+                <section class="link_img flex justify-evenly">
+                    <a
+                        href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DCFF11D96-92EC-424A-9AA2-BFB19A4963D5%26utm_content%3Dlo%26utm_medium%3Dbadge"><img
+                            src="utilities/images/c5Rp7Ym-Klz.png" alt="" width="120"></a>
+                    <a
+                        href="ms-windows-store://pdp/?productid=9nblggh5l9xt&referrer=appbadge&source=www.instagram.com&mode=mini&pos=0%2C0%2C1366%2C728"><img
+                            src="utilities/images/EHY6QnZYdNX.png" alt="" width="100"></a>
+                </section>
+
+            </div>
+        </section>
+    </div>
+    <footer class="flex flex-col items-center justify-center h-[20vh] text-xs text-gray-400 space-y-4">
+        <section class="flex space-x-4">
+            <a href="#">Meta</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Jobs</a>
+            <a href="#">Help</a>
+            <a href="#">API</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Top Accounts</a>
+            <a href="#">Hashtags</a>
+            <a href="#">Locations</a>
+            <a href="#">Instagram Lite</a>
+            <a href="#">Contact Uploading & Non-Users</a>
+        </section>
+        <section class="flex space-x-4">
+            <span class="cursor-pointer">English&nbsp;<i class="fa-solid fa-chevron-down"></i></span>
+            <span>&copy;&nbsp;2022 Instagram from Meta</span>
+        </section>
+    </footer>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
